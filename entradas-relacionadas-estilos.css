@@ -1,0 +1,92 @@
+/* Related Posts Widget
+shared by Owinile Njalo (Blogspot.owinile.com)
+ */ 
+
+.post-related  {
+    display: inline-block;
+    background: #fff;
+    padding: 10px;
+    width:100%;
+    margin-top: -38px;
+}
+.post-box .heading   {
+    margin-bottom: 21px;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+}
+.post-box h4  {
+    font-size: 46px !important;
+}
+.post-box .heading:after   {
+    content: “” ;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -11px;
+    width: 21px;
+    height: 1px;
+    margin-top: 2px;
+    background: #b565a7;
+}
+@media screen and (max-width: 600px)  {
+    .post-box h4  {
+        font-size:28px !important;
+    }
+}
+.item-related  {
+    width: 30.6%;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    height: 100%;
+    padding-left: 10px;
+}
+@media screen and (max-width: 600px)  {
+    .item-related  {
+        width:unset !important;
+        padding-left:unset !important;
+        height:unset !important;
+    }
+}
+.item-related:last-child  {
+    margin: 0!important;
+}
+.item-related .link  {
+    display: block;
+    margin: -1px;
+    margin-bottom: 0;
+}
+.item-related img   {
+    margin-left: 0px !important;
+    display: block;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: none !important;
+}
+@media screen and (max-width: 600px)  {
+    .item-related img {
+        height:100% !important;
+    }
+}
+.item-related h3   {
+    line-height: 20px;
+    margin-top: 8px;
+    height:111px !important;
+}
+.item-related h3 a  {
+    color: black !important;
+    font-size: 18px !important;
+    font-family: sans-serif !important;
+}
+img.noops-smly   {
+    padding: 0 !important;
+    margin-top: -2px !important;
+    width: 19px;
+    display: inline;
+}
+@media (max-width: 520px) .item-related   {
+    width: 100%!important;
+}
