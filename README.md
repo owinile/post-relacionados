@@ -4,7 +4,7 @@
 Todo lo que esta en el archivo **entradas-relacionadas-estilos.css**<br>
 
 # Paso 2: añadir bibliotecas
-Encima de la etiqueta </head> Pega:
+Presione la tecla rápida **"CTRL + F"** para abrir la barra de búsqueda del editor de temas. Escribe la etiqueta </head> y presiona Enter. Encima de la etiqueta **</head>** Pega:
 ```xml
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
