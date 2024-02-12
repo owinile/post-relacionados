@@ -1,4 +1,5 @@
 <b:includable id='postRelated-2' data='post'>
+           <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <div class='post-bottom'>
             <div class='post-footer'>
               <!-- Footer bylines -->
@@ -22,4 +23,5 @@
                      printRelatedLabels_thumbs(&quot;<data:post.url/>&quot;);
                     </script>
                   </div> 
+            </b:if>
 </b:includable>
