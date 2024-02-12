@@ -21,13 +21,13 @@ Pega:
  <data:post.body/>
 ```
 ```xml
-<b:include name='postRelated'/>
+<b:include name='postRelated-2'/>
 ```
 
 **Consejo:** Puede evitar la carga de post relacionados dentro de la vista previa ya que no se requiere, para ello agregue una condición:
 
 ```xml
-<b:include cond='!data:view.isPreview' name='postRelated'/>
+<b:include cond='!data:view.isPreview' name='postRelated-2'/>
 ```
 
 
