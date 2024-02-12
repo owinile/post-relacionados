@@ -16,6 +16,10 @@ Pega:
 # Paso 3: Añadir el código HTML/Javascript en blogger
  Incluir todo el contenido de **entradas-relacionadas-include.xml** dentro de un widget tipo "Blog", posteriormente, utilizar la siguiente etiqueta para incrustar los post relacionados donde se desee:
 
+ **Nota:** Por lo general se lo coloca debajo de la línea 
+ ```xml
+ <data:post.body/>
+```
 ```xml
 <b:include name='postRelated'/>
 ```
