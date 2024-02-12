@@ -1,7 +1,7 @@
 > El mejor plugins de entradas relacionadas para Blogger
 
 # Paso 1: Agregar CSS en blogger 
-Todo lo que esta en el archivo entradas-relacionadas-estilos.css<br>
+Todo lo que esta en el archivo **entradas-relacionadas-estilos.css**<br>
 
 # Paso 2: añadir bibliotecas
 Encima de la etiqueta </head> Pega:
